@@ -10,14 +10,14 @@ public class LockerProblemSolver {
         }  
         System.out.println("打开的储物柜号：");
         for (int i = 0; i < locker.length; i++) {
-            if (locker[i]) {
+            /*if (locker[i]) {
                 System.out.print((i+1)+" ");
-            }
-            /* if (locker[i]) {
+            }*/
+             if (locker[i]) {
                System.out.print("□ ");
             }else{
                 System.out.print("■ ");
-            }*/
+            }
         }
     }
 
